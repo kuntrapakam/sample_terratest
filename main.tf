@@ -9,7 +9,7 @@ terraform {
 
 
 resource "aws_s3_bucket" "terratest-bucket" {
-  bucket = "terratestvalidationnttdata"
+  bucket = "terratestvalidationnewbucket"
   acl    = "private"
 
   versioning {
